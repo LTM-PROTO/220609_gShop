@@ -31,11 +31,7 @@ return new Promise(function (resolve ,reject) {
         reject(error.message)
     })
 })
-
-
-    
-
-    return promise;
+ return promise;
 }
 /* 
 const response = await ajax()

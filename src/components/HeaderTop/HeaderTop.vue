@@ -11,12 +11,14 @@
 </template>
 
 <script>
+// 状态有了 读取
 export default {
   name: "HeaderTop",
   props: {
     title: String,
     required: true,
   },
+
 };
 </script>
 
